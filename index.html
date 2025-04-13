@@ -1,22 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>Frontend Mentor | QR code component</title>
-
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Profile</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f3f4f6;
+      color: #1f2937;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-<body class="flex bg-[#D5E1EF] justify-center h-screen items-center">
-  <div class="flex flex-wrap w-[320px] h-[497px] bg-white rounded-[20px] justify-center shadow-lg">
-    <img src="./images/image-qr-code.png" alt="" class="w-[288px] h-[288px] rounded-[10px] mt-[16px]">
-    <p class="text-[22px] text-[#1F314F] mx-[16px] text-center font-bold">Improve your front-end skills by building projects</p>
-    <p class="text-[15px] text-[#7D889E] mx-[16px] text-center">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-    </p>
+<body>
+  <div class="container">
+    <h1>Hi! I'm a Developer specialized in Flutter 👋</h1>
+
+    <p>I build cross-platform apps using <strong>Flutter</strong> and currently learning <strong>Kotlin (Jetpack)</strong> and <strong>Swift</strong> for native development.</p>
+
+    <p>I'm also experienced in web development with <strong>Laravel</strong> and <strong>React.js</strong>, and I can build basic APIs using <strong>Node.js</strong>.</p>
+
+    <p>In my free time, I love making games with <strong>Roblox Studio</strong> and exploring the world of <strong>game modding</strong>.</p>
+
+    <h2>🛠 Tech Stack</h2>
+    <ul>
+      <li><strong>Mobile:</strong> Flutter, Kotlin, Swift</li>
+      <li><strong>Web:</strong> Laravel, React.js</li>
+      <li><strong>Backend:</strong> Node.js (basic APIs)</li>
+      <li><strong>Game Dev:</strong> Roblox Studio (Lua), Modding</li>
+      <li><strong>Tools:</strong> Git, Firebase, Figma</li>
+    </ul>
+
+    <h2>📫 Contact</h2>
+    <p>Email: <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
   </div>
 </body>
 </html>
