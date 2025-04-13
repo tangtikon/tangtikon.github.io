@@ -4,57 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Developer Portfolio</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f3f4f6;
-      color: #1f2937;
-      padding: 2rem;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      border-radius: 1rem;
-      padding: 2rem;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    h2 {
-      font-size: 1.25rem;
-      margin-top: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    p, ul {
-      margin-bottom: 1rem;
-    }
-    ul {
-      padding-left: 1.5rem;
-    }
-    a {
-      color: #2563eb;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .button {
-      display: inline-block;
-      background-color: #2563eb;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-      text-decoration: none;
-      margin-top: 1rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Hi, I'm Tangtikon</h1>
+
+  <div class="container" style="text-align: center">
+    <!-- <img src="https://via.placeholder.com/120" alt="Profile Picture" class="profile-image" /> -->
+    <h1><span id="typing" class="typing"></span></h1>
     <p><strong>Mobile Developer | Full-Stack Enthusiast</strong></p>
 
     <p>I specialize in building cross-platform mobile applications with <strong>Flutter</strong>. I'm currently expanding my skills into native development with <strong>Kotlin</strong> (Jetpack) and <strong>Swift</strong>. I also enjoy crafting web apps with <strong>Laravel</strong> and <strong>React.js</strong>, and developing basic APIs with <strong>Node.js</strong>.</p>
@@ -62,7 +18,7 @@
     <p>In my free time, I explore game development through <strong>Roblox Studio</strong> and game modding, combining creativity with logic.</p>
 
     <h2>🛠 Tech Stack</h2>
-    <ul>
+    <ul style="text-align: left">
       <li><strong>Mobile:</strong> Flutter, Kotlin, Swift</li>
       <li><strong>Web:</strong> Laravel, React.js</li>
       <li><strong>Backend:</strong> Node.js (basic APIs)</li>
@@ -70,16 +26,25 @@
       <li><strong>Tools:</strong> Git, Firebase, Figma</li>
     </ul>
 
-    <h2>📁 Projects</h2>
-    <ul>
-      <li><a href="https://play.google.com/store/apps/details?id=com.compattana.wanheng_app&hl=th" target="_blank">Project 1 - Flutter Mobile App</a></li>
+    <h2>📱 Featured Apps</h2>
+    <ul style="text-align: left">
+      <li>
+        <strong>Wanheng (วันเฮง)</strong><br />
+        <a href="https://play.google.com/store/apps/details?id=com.compattana.wanheng_app&hl=th" target="_blank">Android</a> |
+        <a href="https://apps.apple.com/th/app/%E0%B8%A7-%E0%B8%99%E0%B9%80%E0%B8%AE%E0%B8%87/id6451129842" target="_blank">iOS</a>
+      </li>
+      <li>
+        <strong>Luban (หลู่ปัง)</strong><br />
+        <a href="https://play.google.com/store/apps/details?id=com.compattana.luban&hl=th" target="_blank">Android</a> |
+        <a href="https://apps.apple.com/th/app/%E0%B8%AB%E0%B8%A5-%E0%B8%9B-%E0%B8%87/id6451243134" target="_blank">iOS</a>
+      </li>
     </ul>
 
     <h2>📫 Contact</h2>
-    <p>Email: <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
-
-    <a href="./resume.pdf" class="button" target="_blank">Download Resume</a>
+    <p>Email: <a href="mailto:tangtikon@gmail.com">tangtikon@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/tangtikon-intisan-9b35a2244/" target="_blank">tangtikon</a></p>
   </div>
+
 </body>
+ <script src="fn.js"></script>
 </html>
